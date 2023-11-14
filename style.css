@@ -1,0 +1,277 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-family: "Open Sans";
+}
+
+/* build styling */
+.build {
+  text-align: center;
+}
+.build h1 {
+  color: hsl(192, 100%, 9%);
+  font-family: "poppins", sans-serif;
+}
+.build .first {
+  color: hsl(192, 100%, 9%);
+  font-family: "Open Sans", sans-serif;
+  padding-top: 1.5rem;
+  padding-bottom: 2.5rem;
+}
+.build a[href]:hover {
+  color: hsl(321, 100%, 78%);
+}
+.build a[href] {
+  font-size: 20px;
+  text-decoration: none;
+  background-color: hsl(322, 100%, 66%);
+  padding: 1rem;
+  border-radius: 1.5rem;
+}
+.build a[href] span {
+  color: hsl(207, 100%, 98%);
+}
+.try {
+  display: flex;
+  justify-content: end;
+  padding-bottom: 10rem;
+  margin: 1.5rem;
+}
+.try a[href] {
+  text-decoration: none;
+  border-top: 3px solid hsl(321, 100%, 78%);
+  border-left: 3px solid hsl(321, 100%, 78%);
+  border-bottom: 3px solid hsl(321, 100%, 78%);
+  border-right: 3px solid hsl(321, 100%, 78%);
+  padding-left: 1.2rem;
+  padding-right: 1.2rem;
+  padding-bottom: 0.66rem;
+  padding-top: 0.66rem;
+  border-radius: 1.5rem;
+}
+.try span {
+  color: hsl(321, 100%, 78%);
+}
+/* joy styling */
+.joy {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  text-align: center;
+  width: 100%;
+}
+.joy .mocks {
+  width: 80%;
+}
+
+/* community styling  */
+.community {
+  text-align: center;
+  padding-top: 6rem;
+  padding-bottom: 10rem;
+}
+.community .second {
+  font-size: 5rem;
+  font-weight: bold;
+  font-family: "poppins", sans-serif;
+  color: hsl(192, 100%, 9%);
+}
+.community .feature-subheading {
+  color: hsl(192, 100%, 9%);
+  font-family: "Open Sans", sans-serif;
+}
+.padding-down {
+  padding-bottom: 3rem;
+}
+
+/* feature styling image*/
+.feature {
+  text-align: center;
+  padding-bottom: 6rem;
+}
+.grow {
+  width: 80%;
+  padding-bottom: 3rem;
+}
+
+/* feature-headings and feature-subheading */
+.feature-heading {
+  font-size: 1.5rem;
+  font-family: "poppins", sans-serif;
+  color: hsl(192, 100%, 9%);
+}
+
+.feature-subheading {
+  color: hsl(192, 100%, 9%);
+  font-family: "Open Sans", sans-serif;
+}
+
+/* feature styling image 2 */
+.flowing {
+  width: 80%;
+  padding-bottom: 3rem;
+}
+
+/* users styling image 3 */
+.users {
+  width: 80%;
+  padding-bottom: 3rem;
+}
+
+/* ready styling */
+.ready {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  text-align: center;
+}
+.ready h3 {
+  font-size: 1.5rem;
+  color: hsl(192, 100%, 9%);
+  font-family: "poppins", sans-serif;
+  padding-bottom: 3rem;
+}
+.ready a[href] {
+  font-size: 20px;
+  text-decoration: none;
+  background-color: hsl(322, 100%, 66%);
+  padding: 1rem;
+  border-radius: 1.5rem;
+}
+.ready a[href] span {
+  color: hsl(207, 100%, 98%);
+}
+
+/* footer styling */
+footer {
+  background-image: url(images/bg-footer-top-mobile.svg);
+  background-attachment: fixed;
+  background-size: cover;
+  text-align: center;
+  padding-top: 6rem;
+}
+footer .news {
+  padding-bottom: 5rem;
+}
+footer h6 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: hsl(207, 100%, 98%);
+}
+footer p {
+  padding-bottom: 1.5rem;
+  color: hsl(207, 100%, 98%);
+}
+footer form input {
+  font-size: 1.6rem;
+  padding-top: 1rem;
+  border-radius: 20px;
+}
+footer form label span {
+  color: hsl(207, 100%, 98%);
+  font-size: 23px;
+  text-decoration: none;
+  background-color: hsl(322, 100%, 66%);
+  padding: 1rem;
+  border-radius: 1.5rem;
+}
+footer .news-2 .design {
+  color: hsl(207, 100%, 98%);
+}
+footer .icon-upload {
+  font-size: 1.5rem;
+  gap: 1rem;
+  color: hsl(207, 100%, 98%);
+}
+
+/* Responsive media design */
+@media screen and (min-width: 1486px) {
+  /* huddle and try styling */
+  .huddle {
+    padding-top: 5rem;
+    margin: 2rem;
+  }
+  .try {
+    display: flex;
+    justify-content: end;
+    padding-bottom: 10rem;
+    margin: 1.5rem;
+  }
+  .try a[href] {
+    text-decoration: none;
+    border-top: 3px solid hsl(321, 100%, 78%);
+    border-left: 3px solid hsl(321, 100%, 78%);
+    border-bottom: 3px solid hsl(321, 100%, 78%);
+    border-right: 3px solid hsl(321, 100%, 78%);
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+    padding-bottom: 0.66rem;
+    padding-top: 0.66rem;
+    border-radius: 1.5rem;
+  }
+  .try span {
+    color: hsl(321, 100%, 78%);
+  }
+
+  /* build styling  */
+  .build h1 {
+    font-size: 3rem;
+  }
+  .build .first {
+    font-size: 1.2rem;
+  }
+  /* joy styling  */
+  .joy .mocks {
+    width: 75%;
+  }
+  /* community styling  */
+  .community {
+    display: flex;
+    justify-content: center;
+    gap: 16rem;
+  }
+
+  /* feature image styling */
+  .grow {
+    width: 75%;
+    padding-bottom: 3rem;
+  }
+  /* feature image styling */
+  /* feature parent container styling */
+  .feature {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 1.5rem;
+  }
+  .conversation-reverse {
+    flex-direction: row-reverse;
+  }
+  .feature-heading {
+    font-weight: 700;
+    font-size: 2rem;
+    margin-bottom: 10px;
+    font-family: Poppins;
+    color: hsl(192, 100%, 9%);
+  }
+  .feature-subheading {
+    font-size: 1.2rem;
+  }
+
+  /* ready styling  */
+  .ready a[href] {
+    font-size: 20px;
+    text-decoration: none;
+    padding: 1.5rem;
+    border-radius: 1.7rem;
+  }
+  .ready h3 {
+    font-size: 1.9rem;
+  }
+  /* footer styling */
+  footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
